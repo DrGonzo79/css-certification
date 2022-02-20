@@ -1,0 +1,116 @@
+body{
+    padding: 30px;
+    margin: 10px;
+}
+
+header{
+    background-color: rgb(247, 242, 242);
+    background-image: url(./images/flywheel.jpg);
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    color: rgb(247, 242, 242);
+    background-size: 100%;
+}
+    
+    h1{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    
+    h2{
+    color: #000000;
+    text-transform: uppercase;
+    }
+    
+   
+    
+    nav a{
+        display: inline-block;
+        background-color: rgba(240, 235, 235, 0.325);
+        text-decoration: none;
+        height: 30px;
+        width: 220px;
+        border-radius: 5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -o-border-radius:5px;
+    margin: 0 40px 40px 0;
+    padding: 14px 0 0 0;
+    color: #000000;
+  
+    }
+    .active{
+        background-color: rgba(255, 255, 255, 0.979);
+    color: #0404ac;
+    }
+    
+   
+    .left{
+        float: left;
+        display: inline;
+        background-color: rgb(71, 100, 34);
+        padding: 5px 5px 100px 5px;
+        width: 22%;
+        text-align: center;
+    
+    }
+   
+        img{
+            border: solid 2px rgb(1,1,1);    
+            width: 200px;
+            margin: 15px auto;
+            display: inline;
+
+    }
+
+    .right{
+        width: 70%;
+        display: inline-block;
+        padding-left: 5px;
+        
+    }
+    
+    table{
+        margin:30px 90px;
+        width: 80%;
+  padding: 10 px;
+  line-height: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+    }
+
+    table th{
+        background-color: #708f38;
+        border-bottom: 2px solid rgb(83, 238, 22);
+        color: rgb(255, 255, 255);
+        border-radius: 5px 5px 0 0;
+        padding: 15px;
+        font-size:15ps
+    }
+
+    th, tr td {
+        text-align: center;
+    }
+    
+
+    th:first-child, tr td:first-child {
+        text-align: left;
+        padding-left:5px;
+    }
+
+  tr td{
+        opacity: 0.65;
+    }
+
+    tr:hover  td{
+        opacity: 0.95;
+    }
+    td{
+        background-color: rgb(178, 196, 211);
+        padding: 10px;
+        color:#413f3f;
+        font-size:13px;
+        font-weight: 600;
+    }
